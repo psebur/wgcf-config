@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clome and build wgcf
+# clone and build wgcf
 git clone https://github.com/ViRb3/wgcf
 
 cd wgcf
@@ -27,7 +27,7 @@ read -p "Enter the new license key: " new_license_key
 # update license key function with the key
 update_license_key "$new_license_key"
 
-# update profilr
+# update profile
 ./wgcf update
 
 ./wgcf generate
@@ -45,7 +45,7 @@ mv wgcf-copy ..
 
 cd ..
 
-sudo rm -r wgcf
+sudo rm -rf wgcf
 
 mv wgcf-copy wgcf
 
