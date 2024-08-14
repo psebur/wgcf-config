@@ -21,8 +21,7 @@
 2. Run:
 
 ```bash
-chmod +x main.sh
-./main.sh
+chmod +x main.sh && ./main.sh
 ```
 
 4. Hit `Enter` to agree to the Terms of Service when prompted.
